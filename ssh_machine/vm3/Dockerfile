@@ -23,8 +23,8 @@ RUN chmod 666 /etc/shadow
 #copy key file
 COPY key7.txt /home/karna/key7.txt
 COPY key10.txt /home/indra/key10.txt
-COPY key11.txt /root/key11.txt
-COPY final.txt /root/final.txt
+COPY key11.txt /home/indra/key11.txt
+COPY final.txt /home/indra/final.txt
 
 RUN chmod 666 /root/key11.txt
 RUN chmod 666 /root/final.txt
