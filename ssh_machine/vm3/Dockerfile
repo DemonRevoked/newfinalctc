@@ -26,8 +26,8 @@ COPY key10.txt /home/indra/key10.txt
 COPY key11.txt /home/indra/key11.txt
 COPY final.txt /home/indra/final.txt
 
-RUN chmod 666 /root/key11.txt
-RUN chmod 666 /root/final.txt
+#RUN chmod 666 /root/key11.txt
+#RUN chmod 666 /root/final.txt
 # Expose the SSH port
 EXPOSE 22
 
